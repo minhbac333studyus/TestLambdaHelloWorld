@@ -1,0 +1,9 @@
+Resources:
+  Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Timeout: 0
+      MemorySize: 10240
+      Handler: com.minhle.HelloWorld
+      CodeUri: Function
+      Runtime: java11

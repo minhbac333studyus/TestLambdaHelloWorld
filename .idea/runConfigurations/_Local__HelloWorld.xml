@@ -1,0 +1,32 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="[Local] HelloWorld" type="aws.lambda" factoryName="Local" nameIsGenerated="true">
+    <option name="credentialProviderId" value="profile:adminUser1" />
+    <option name="regionId" value="us-east-2" />
+    <option name="debugHost" value="localhost" />
+    <option name="environmentVariables">
+      <map />
+    </option>
+    <option name="handler" value="com.minhle.HelloWorld" />
+    <option name="image" value="false" />
+    <option name="logicalFunctionName" />
+    <option name="memorySize" value="10240" />
+    <option name="pathMappings">
+      <list />
+    </option>
+    <option name="platform" />
+    <option name="runtime" value="java11" />
+    <option name="templateFile" />
+    <option name="timeout" value="60" />
+    <option name="useTemplate" value="false" />
+    <option name="input" value="{&#10;  &quot;key1&quot;: &quot;value1&quot;,&#10;  &quot;key2&quot;: &quot;value2&quot;,&#10;  &quot;key3&quot;: &quot;value3&quot;&#10;}" />
+    <option name="inputIsFile" value="false" />
+    <sam>
+      <option name="additionalBuildArgs" value="" />
+      <option name="additionalLocalArgs" value="" />
+      <option name="buildInContainer" value="true" />
+      <option name="dockerNetwork" value="" />
+      <option name="skipImagePull" value="true" />
+    </sam>
+    <method v="2" />
+  </configuration>
+</component>

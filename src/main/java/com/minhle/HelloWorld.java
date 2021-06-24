@@ -93,7 +93,7 @@ public class HelloWorld implements RequestHandler<S3Event, String> {
     }
     private void setUpCredential() {
         this.credentials= new BasicAWSCredentials(
-                "AKIA2WWDV4LNW6G3ZO75",
+                "xxxx",
                 "f9YUjnFRRJvyUIAsX7ciaESg+Y8mtDpKjX99Fw51");
         try {
             credentials.getAWSAccessKeyId();
